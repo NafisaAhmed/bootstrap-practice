@@ -1,12 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap booting</title>
+  <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
+  <style>
+    h1 {
+      margin-top: 100px;
+    }
+  </style>
 </head>
+
 <body>
-    <h1>Hello from Bootstrap</h1>
+  <h1>Hello from Bootstrap</h1>
+  <script src="css/bootstrap/js/bootstrap.min.js"></script>
+  <h1>Buttons</h1>
+  <button class="btn btn-primary rounded-pill ms-5">button</button>
+  <button class="btn btn-secondary">Second button</button>
+  <button class="btn btn-success">Success</button>
+  <button class="btn btn-warning">Warning</button>
+  <button class="btn btn-danger">Danger</button>
+
+  <h1>Colors</h1>
+  <p class="text-primary">paragraph</p>
+  <p class="text-secondary">secondary</p>
+  <p class="text-danger">danger</p>
+  <br>
+  <h2>Borders</h2>
+  <div class="border border-success rounded-pill">My div</div>
+
+  <h1>Backgrounds</h1>
+  <div class="bg-primary text-white">
+    <h1>My news</h1>
+    <p>I am learning bootstrap</p>
+  </div>
+  <div class="bg-warning text-danger">
+    <h1>My hobby</h1>
+    <p>Scroll facebook and watch movies</p>
+  </div>
+
+  <h1>images</h1>
+  <img class="w-25 rounded img-thumbnail" src="images/Sharee/blue.jpeg" alt="">
+  <img class="w-25 rounded-circle" src="images/Sharee/pink.jpg" alt="">
+  <img src="images/Sharee/red.jpg" class="w-25" alt="">
+
+  <h1>Card</h1>
+  <div class="card" style="width: 18rem;">
+    <img src="images/Sharee/white.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Shada Shari porechi</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+        content.</p>
+      <a href="#" class="btn btn-primary">See details</a>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="images/Sharee/white.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Nafisa</h5>
+      <h6 class="card-subtitle mb-2 text-muted">She is the boss</h6>
+      <p class="card-text">Boss is always right. You will do whatever she orders you to do. If you can't do you'll be
+        resigned.</p>
+    </div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">An item</li>
+      <li class="list-group-item">A second item</li>
+      <li class="list-group-item">A third item</li>
+    </ul>
+    <div class="card-body">
+      <a href="#" class="card-link">Card link</a>
+      <a href="#" class="card-link">Another link</a>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header">
+      Quote
+    </div>
+    <div class="card-body">
+      <blockquote class="blockquote mb-0">
+        <p>আমার মনটা আয়না, নিজের বাঁধা মতগুলো দিয়ে চিরদিনের মতো যদি তাকে আগাগোড়া লেপে রেখে দিতুম তবে প্রত্যেক চলতি
+          মুহূর্তের প্রতিবিম্ব পড়তো না। </p>
+        <footer class="blockquote-footer">রবীন্দ্রনাথ ঠাকুর এর <cite title="Source Title">শেষের কবিতা</cite></footer>
+      </blockquote>
+    </div>
+  </div>
+  <div class="card text-center">
+    <div class="card-header">
+      Featured
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">Special title treatment</h5>
+      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+    <div class="card-footer text-muted">
+      2 days ago
+    </div>
+  </div>
+  <div class="card text-center">
+    <div class="card-header">
+      <ul class="nav nav-tabs card-header-tabs">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="true" href="#">Active</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled">Disabled</a>
+        </li>
+      </ul>
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">Special title treatment</h5>
+      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+  <div class="card mb-3">
+    <img src="images/Sharee/yellow.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
+        This content is a little bit longer.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
+        This content is a little bit longer.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+    <img src="..." class="card-img-bottom" alt="...">
+  </div>
+  <div class="card bg-dark text-white">
+    <img src="images/Sharee/white.jpg" class="card-img" alt="...">
+    <div class="card-img-overlay">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
+        This content is a little bit longer.</p>
+      <p class="card-text">Last updated 3 mins ago</p>
+    </div>
+  </div>
+  <div class="card mb-3" style="max-width: 540px;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="images/Sharee/red.jpg" class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+            content. This content is a little bit longer.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <h1>Navigation</h1>
+  <nav class="nav">
+    <a class="nav-link" href="">Home</a>
+    <a class="nav-link" href="">Products</a>
+    <a class="nav-link" href="">Shopping Cart</a>
+    <a class="nav-link" href="">Shipping</a>
+  </nav>
 </body>
+
 </html>
